@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Creating Fixed Header and Footer with CSS</title>
+<link href="Header1.css" rel="stylesheet">
+
+</head>
+<body>
+             
+    <div class="fixed-header">
+                      
+        
+            <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#">About</a>
+                    <a href="#">Services</a>
+                    <a href="#">Clients</a>
+                    <a href="#">Contact</a>
+                    <p>Sicuro welcomes you to explore the world of premier banking.</p>
+                  </div>
+        <!-- <div class="container"> -->
+            <div class="top-container">
+                <img src="LOGO2.png" alt="SicuroBank Logo" width="15%" height="10%">
+               
+    </div>
+                
+            <nav>
+                <div class="topnav">
+                        <a><span style="cursor:pointer" onclick="openNav()">&#9776;</span></a>
+                        <a class="active" href="#home">Home</a>
+                        <a href="#news">News</a>
+                        <a href="#contact">Contact</a>
+                        <a href="#about">About</a>
+                      </div>
+             </nav>
+           </div>
+    </div>
+     
+    <div class="fixed-footer">
+        <div class="container">Copyright &copy; 2016 Your Company</div>        
+    </div>
+
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+</body>
+</html>                            

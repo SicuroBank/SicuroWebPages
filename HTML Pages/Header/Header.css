@@ -1,0 +1,123 @@
+.topnav {
+  overflow: hidden;
+  background-color: rgb(76, 139, 175);
+}
+
+.topnav a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: rgb(247, 247, 247);
+  color: rgb(0, 0, 0);
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    border-top-left-radius: 0;
+    background-color: rgb(48, 112, 230);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav p{
+      font-size: 10px;
+  }
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #000000;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+      body{        
+          padding-top: 40px;
+          padding-bottom: 40px;
+      }
+      .container{
+          width: 100%;
+          margin: 0 auto; /* Center the DIV horizontally */
+      }
+
+      .container a:hover {
+        color: #1a4cd6;
+      }
+      .fixed-header, .fixed-footer{
+          width: 100%;
+          position: fixed;        
+          padding: 5px 0;
+         
+      }
+      .fixed-header{
+          height: 20%;
+          top: 0;
+          font-size: 25px;
+          background-color: rgb(255, 255, 255);
+
+      }
+      .fixed-footer{
+          bottom: 0;
+          color: rgb(0, 0, 0);
+          background-color: rgba(6, 113, 253, 0.548);
+          text-align: center;
+      }    
+      /* Some more styles to beutify this example */
+      nav a{
+          color: rgb(0, 0, 0);
+          text-decoration: none;
+          padding: 7px 25px;
+          display: inline-block;
+      }
+      .container p{
+          line-height: 100px; /* Create scrollbar to test positioning */
+      }
+      
+      .toright{
+        text-align: right;
+      }
+  
+      .top-container {
+    padding: 10px;
+    text-align: center;
+    top:1;
+    background: rgb(255, 255, 255);
+
+  }
+
+
+
+  

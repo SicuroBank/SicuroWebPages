@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<HTML>
+
+<HEAD>
+        <meta charset="utf-8">
+        <title>HomePage</title>
+        <style>
+body{
+    background-color:whitesmoke;
+}
+img.log{
+    position: absolute;
+    left:45%;
+    height:8%;
+    
+}
+   
+.header {
+  padding: 10px 16px;
+  background: whitesmoke;
+  color: #f1f1f1;
+ 
+}
+
+/* .content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+} */
+
+
+
+.top-container {
+    padding: 10px;
+    text-align: center;
+    top:1;
+    background: whitesmoke;
+
+  }
+
+.topnav {
+  
+    left:0%;
+    overflow: hidden;
+    background-color: rgb(76, 139, 175);
+    position: relative;
+    top:40px;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    font-size: 20px;
+    left:0%;
+  }
+  
+  .topnav a:hover {
+    background-color: #ccc;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #ccc;
+    color: rgb(0, 0, 0);
+  }
+ 
+  
+  
+  marquee {
+  width: 70%;
+  padding: 10px 0;
+  position: absolute;
+  top: 65%;
+  margin-left:5%; 
+  box-sizing: border-box ;
+font-size: 14pt;
+  color: red;
+  
+}
+.login
+{
+    position: absolute;
+    right:1%;
+    top:24%;
+    margin-right:38px; 
+    text-align: left;
+    width: 350px;
+    box-sizing: border-box;
+    padding: 40px;
+    background: #ccc;
+    border-radius: 15%; 
+}
+
+li{
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type:none;
+    color: white;
+}
+.wrapper .sidemenu  li{
+
+ 
+padding: 15px;
+border-bottom: 1px solid rgba(0,0,0,0.05);
+border-top: 1px solid rgba(255,255,255,0.05);
+color:black;
+cursor: pointer;
+}
+
+.wrapper .sidemenu li:hover{
+background:  #ffffff;
+border-radius: 20px;
+
+}
+a{
+    text-decoration: none;
+    color:black;
+    cursor: pointer;
+
+}
+.fixed-footer{
+    bottom: 0;
+    color: rgb(0, 0, 0);
+    background-color: rgb(76, 139, 175);
+    text-align: center;
+    left: 0%;
+    width: 100%;
+    position: fixed;        
+    padding: 5px 0;
+}  
+img.abc{
+    height:30%;
+    width:60%;
+    position:absolute;
+    top:27%;
+    left:7%;
+}
+
+
+
+        
+        </style>
+</HEAD>
+<div class="header">
+   
+        <div class="top-container">
+            <img class="log" src="D:\HTML Pages\Header\LOGO2.png" alt="SicuroBank Logo" width="15%" height="15%">
+           
+</div></div>
+<div class="header">
+<nav>
+        <div class="topnav">
+                <a class="active" href="#home">Home</a>
+                <a href="#news">News</a>
+                <a href="#contact">Contact</a>
+                <a href="#about">About</a>
+              </div>
+     </nav>
+</div>
+
+
+<div class="marquee-content" >
+                          
+                           
+        <marquee onmouseover="stop()" onmouseout="start()" direction="up" scrollamount="3" height="145">
+           
+                <p style="font-weight: bold;">
+                        <span class="fa fa-info-circle" style="color: #026d97;">
+                          
+                          <span style="background-color: yellow">Important Security Tips For Safe Online Banking</span>
+                        
+                          </br></br>
+                          1: Access your bank website only by typing the URL in the address bar of your browser.
+                        </br></br>
+                          2: Be aware of  <mark>downloading any malicious application</mark> from mobile application stores (Google Playstore, Apple App Store, Blackberry App World, Ovi Store, Windows Marketplace etc) that are offering Online Banking. Kindly check their authenticity before downloading, by contacting your Bank.
+                          </br> </br>
+                          3:Do not click on any links in any <mark>e-mail message </mark>to access the site.
+                        </br></br>
+      
+              
+      
+               
+                </span>
+           
+            
+            
+            
+        </marquee>
+      </div>
+      <div class="login">
+      <div class="wrapper">
+            <div class="sidemenu">
+            
+                <li><a href="login.html">Login</a></li>
+                <li>New User?Register</li>
+                <li>Apply Online for Account</li>
+           
+        </div>
+    </div>
+</div>
+
+<div class="fixed-footer">
+        <div class="container">Copyright &copy; Sicuro Bank 2019</div>        
+    </div>
+    <img class="abc" src="bnk.jfif">
+
+</html>
