@@ -1,0 +1,101 @@
+* {box-sizing: border-box}
+body{
+   
+    
+    
+  
+    background-image: url("pig.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Poppins, sans-serif;
+}
+/* Add padding to containers */
+.container {
+    position: relative;
+  padding: 16px;
+  width:50%;
+  right: 0;
+  background: rgba(0,0,0,.5);
+
+}
+ .container h1{
+
+    top:0;
+    color:whitesmoke;
+    width: 100%;
+    line-height: inherit;
+    text-align: center;
+    font-weight: inherit;
+
+}
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: block;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+    border-radius: 10px;
+
+  }
+  
+input[type=text], input[type=number] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: block;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 10px;
+
+  }
+  
+input[type=text]:focus, input[type=number]:focus {
+    background-color: #ddd;
+    outline: none;
+    border-radius: 10px;
+
+  }
+
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+label,p{
+    color: whitesmoke;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color:#0090DE;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
