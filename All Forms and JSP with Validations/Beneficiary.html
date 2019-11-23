@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel = "stylesheet"  type = "text/css"  href = "Forgot.css" />
+<script type="text/javascript" src="BenValid.js"></script>
+</head>
+<h1>Add New Beneficiary</h1>
+  <body>
+      <div class="center">
+          <form name="AddBeneficiary" action="/" onsubmit="return validateForm()" method="post">
+          <label for="baccno"><b>Beneficiary Account No.</b></label>
+          <input type="text" placeholder="Enter Account No." name="baccno" >
+          <br></br>
+          <label for="renterbaccno"><b>Re-Enter Account No.</b></label>
+          <input type="text" placeholder="Re-Enter Account No." name="renterbaccno" >
+          <br></br>
+        <label for="benname"><b>Beneficiary Name</b></label>
+        <input type="text" placeholder="Enter Name" name="benname" >
+      </br></br>
+        <input type="checkbox"/>Save Beneficiary
+        <br></br>
+        <label for="nick"><b>Nickname</b></label>
+        <input type="text" placeholder="Nickname" name="nick" >
+        <br></br>
+        <button type="submit" >Save as Beneficiary</button>
+       
+        <br></br>
+
+    
+  
+      
+    </form>
+  </div>
+  
+ </body>
+</html>

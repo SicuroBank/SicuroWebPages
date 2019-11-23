@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel = "stylesheet"  type = "text/css"  href = "Forgot.css" />
+<script type="text/javascript" src="NEFT.js"></script>
+</head>
+<h1>Initiate NEFT Payment</h1>
+  <body>
+      <div class="center">
+            <form name="NEFT" action="/" onsubmit="return validateForm()" method="post">
+        <label for="faccno"><b>From Account No.</b></label>
+        <input type="text" placeholder="From Account No." name="accno" >
+        </br></br>
+        <label for="taccno"><b>To Account No.</b></label>
+        
+        <select name="toaccno">  
+                <option value=" "> </option> 
+                
+                </select>
+                <button type="submit" >Add New</button>
+            </br></br>       
+        <label for="amt"><b>Amount</b></label>
+        <input type="text" placeholder="Amount" name="amt" >
+        </br></br>
+        <label for="transd"><b>Transaction Date</b></label>
+        <input type="date" placeholder="Transaction Date" name="transd" >
+        </br></br>
+        <label for="rmk"><b>Remark</b></label>
+        <input type="text" placeholder="Remark" name="rmk" >
+        </br>
+        <h3>Please Note</h3>
+        <p>
+            1.Transactions will be executed on the next working day if they are scheduled for Sundays, National Holidays, NEFT holidays (as declared by RBI).
+            <br></br>
+            2.Timings for NEFT : Monday-Saturday(except 2nd and 4th Saturday) 6:00AM - 6:30PM
+            <br></br>
+        </p>
+        <button type="submit">Save</button>
+        <button type="reset">Reset</button>
+        <button type="submit">Save as Template</button>
+        <button type="submit">Continue</button>
+         </br>
+        </form>
+        </div>
+  
+ </body>
+</html>

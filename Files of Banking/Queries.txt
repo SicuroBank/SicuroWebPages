@@ -1,0 +1,47 @@
+create table OpenAccount
+(Title varchar2(4), 
+First_name varchar2(100), Last_name varchar2(100),
+ MobileNo number(10), emailId varchar2(100), AadharCardNo number(12), DOB date, 
+ResAddrLine1 varchar2(100), ResAddrLine2 varchar2(100), ResLandmark varchar2(100), ResCity varchar2(30), 
+ResState varchar2(30), ResPincode number(6),	
+AddrLine1 varchar2(100), AddrLine2 varchar2(100), Landmark varchar2(100), City varchar2(30), 
+State varchar2(30), Pincode number(6),
+OccupationType varchar2(50), SourceOfIncome varchar2(50), 
+GrossAnnualIncome varchar2(50));
+
+create table AccountHolder
+( AccNo number(16), Title varchar2(4), 
+First_name varchar2(100), Last_name varchar2(100),
+ MobileNo number(10), emailId varchar2(100), AadharCardNo number(12), DOB date, 
+ResAddrLine1 varchar2(100), ResAddrLine2 varchar2(100), ResLandmark varchar2(100),
+ ResCity varchar2(30), 
+ResState varchar2(30), ResPincode number(6),	
+AddrLine1 varchar2(100), AddrLine2 varchar2(100), 
+Landmark varchar2(100), City varchar2(30), 
+State varchar2(30), Pincode number(6),
+OccupationType varchar2(50), SourceofIncome varchar2(50), 
+GrossAnnualIncome varchar2(50));	
+
+
+create table NetBankingHolder (AccNo number(16) primary key, userId varchar2(20),
+ Password varchar2(20), TransPwd number(4));		
+
+create table Beneficiary(BenAccNo number(16) 
+primary key, BenName varchar2(100),
+BenNickName varchar2(100),AccNo number(16));
+
+create table Balance(AccNo number(16), AmtBal number(15,2));
+
+create table Transaction( TransId number(12) primary key, TransDate Date,  
+TransType varchar2(4), ToAcc number(16), 
+Debit number(15,2), Credit number(15,2), AmtBal number(15,2), Narration varchar2(100));
+
+
+
+
+		
+									
+									
+				
+									
+									
